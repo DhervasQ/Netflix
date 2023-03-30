@@ -1,0 +1,32 @@
+.films {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+height: 280px;
+  width: 200px;
+  margin-bottom: 50px;
+}
+.films__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.films__item {
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+h1 {
+  color: yellow;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+}
+h3 {
+  color: yellow;
+  font-size: 15px;
+}

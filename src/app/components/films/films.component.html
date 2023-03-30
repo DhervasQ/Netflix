@@ -1,0 +1,6 @@
+<div class="films">
+  <h3>{{ filmsGallery.section}}</h3>
+  <div class="films__list">
+  <ng-container *ngFor="let item of filmsGallery.films"><div class="films__item"><img src="{{item.image}}" alt=""><h1>{{item.title}}</h1></div> </ng-container>
+</div>
+</div>
